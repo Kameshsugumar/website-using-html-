@@ -1,0 +1,129 @@
+<html>
+<head>
+<title>Home page</title>
+</head>
+<style>
+.container{
+display:grid;
+grid-template-areas:
+"header"
+"menu";
+grid-template-rows: auto auto 1fr auto;
+height:100vh;
+}
+header{
+background-color:gold;
+grid-area:header;
+padding:10px;
+text-align:center;
+font-size:1.5em;
+}
+nav{
+grid-area: menu;
+display: flex;
+justify-content: center;
+background:cyan;
+padding: 5px;
+}
+nav div{
+margin: 0 10px;
+padding: 5px 10px;
+background: blue;
+border: 1px solid #aaa;
+}
+.header{
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+.b{
+font-size:15px;
+color:black;
+}
+.c{
+font-size:15px;
+color:black;
+}
+.e{
+font-size:15px;
+color:black;
+}
+.d{
+font-size:15px;
+color:black;
+}
+.center{
+display:flex;
+}
+.e1{
+text-align:center;
+font-style:italic;
+}
+.f{
+font-size:15px;
+color:white;
+}
+footer{
+display:flex;
+background-color:cyan;
+}
+.footer{
+display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color:pink;
+    text-align: center;
+}
+.c1,.c2,.c3{
+width:40%;
+text-align:center;
+}
+.g{
+font-size:15;
+}
+</style>
+<body>
+<div class="contain">
+<header>
+<div class="header">
+<a href="#default" class="logo"><img src="index.png" height="50" width="50"></a>
+</div>
+Google sign up form</header>
+<nav>
+<div><button type="button"><a class="e" href="home.html">Home</a></button></div>
+<div><button type="button"><a class="d" href="signup.html">Register</a></button></div>
+<div><button type="button"><a class="b" href="About.html">About</a></button></div>
+<div><button type="button"><a class="c" href="Contact us.html">Contact us</a></button></div>
+<div><button type="button"><a class="f" href="moreinfo.html">More Info</a></button></div>
+</nav>
+</div>
+<div class="center">
+<div>
+<img src="C:\Users\kames\Desktop\intern work\google.png" width="500" height="500">
+</div>
+<div class="e1">
+<h3>Google</h3>
+<p>Google LLC is an American multinational corporation and technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, consumer electronics, and artificial intelligence.</p>
+</div>
+</div>
+<footer class="footer">
+<div class="c1">
+<h3>More about Google form</h3>
+<p class="g">The Google Sign-Up Form allows users to create a new Google account easily and securely.It collects basic information like name, username, password, and phone number.The form includes options for account recovery and verification.It ensures user data is protected through secure authentication methods.</p>
+</div>
+<div class="c2">
+<h3>Social Media</h3>
+<a href="https://www.facebook.com/"><img src="facebook.png" width="20px" height="20px">Facebook</a><br><br>
+<a href="https://www.instagram.com/"><img src="instagram.png" width="20px" height="20px">Instagram</a><br><br>
+<a href="https://x.com/i/flow/login?lang=en"><img src="xtwitter.png" width="20px" height="20px">XTwitter</a><br><br>
+</div>
+<div class="c3">
+<h3>Contact Information</h3>
+<p class="g">Plant B,Manager 71 Old Church St Kensington,SW35BS</p>
+<p class="g">Contact:0987654321</p>
+<p class="g">Email:<a href="mailto:contact@gmail.com">contact@gmail.com</p>
+</div>
+</footer>
+</body>
+</html>
